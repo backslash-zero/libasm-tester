@@ -163,8 +163,6 @@ int     test_write(void)
     printf("\n");
     ft_write(1, d, strlen(d));
     printf("\n");
-    write(1, d, strlen(d));
-    printf("\n");
     return(0);
 }
 
